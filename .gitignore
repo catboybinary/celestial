@@ -115,5 +115,9 @@ gradle-app.setting
 # Common working directory
 run/
 
+
+gradlew
+gradlew.bat
+
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
