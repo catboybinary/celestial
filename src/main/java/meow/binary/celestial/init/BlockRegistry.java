@@ -1,6 +1,5 @@
 package meow.binary.celestial.init;
 
-import it.hurts.sskirillss.relics.items.BlockItemBase;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -17,8 +16,10 @@ import static meow.binary.celestial.Celestial.MODID;
 public class BlockRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+    public static final BlockBehaviour.Properties BLOCK_PROPS = BlockBehaviour.Properties.of();
+    public static final Item.Properties ITEM_PROPS = new Item.Properties();
 
-    public static final RegistryObject<Block> EXAMPLE_BLOCK = create("example_block", () -> new Block(BlockBehaviour.Properties.of()));
+    public static final RegistryObject<Block> EXAMPLE_BLOCK = create("example_block", () -> new Block(BLOCK_PROPS));
 
     public static void register() {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());

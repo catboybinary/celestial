@@ -24,11 +24,6 @@ public class ExampleRelic extends Item implements IRelicItem {
     }
 
     @Override
-    public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
-        return super.use(pLevel, pPlayer, pUsedHand);
-    }
-
-    @Override
     public RelicData constructDefaultRelicData() {
         return RelicData.builder()
                 .abilities(AbilitiesData.builder()
