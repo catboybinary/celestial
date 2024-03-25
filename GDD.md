@@ -1,7 +1,8 @@
 # GDD – Celestial, Relics add-on
 ## Some relic ideas:
-- ### Starblazers: Boots, that allow you to travel in a non-conventional way:
-  - Generates a star field around the wearer with different constellations
+- ### Starblazers
+  _Boots, that allow you to travel in a non-conventional way_
+  - The relic generates a star field around the wearer with different constellations
   - **Moonlight** is a form of energy, collected only during nighttime. The fuller the phase of the moon – the higher the recharge rate.
   - The wearer can travel along the **constellation** by clicking on the next star, slowly depleting their moonlight.
   - While the wearer is moving along the constellation, they become invincible and ghost-like (the collisions are disabled)
