@@ -1,4 +1,4 @@
-package meow.binary.celestial.content.item;
+package meow.binary.celestial.content.item.relics;
 
 import it.hurts.sskirillss.relics.items.relics.base.IRelicItem;
 import it.hurts.sskirillss.relics.items.relics.base.data.RelicData;

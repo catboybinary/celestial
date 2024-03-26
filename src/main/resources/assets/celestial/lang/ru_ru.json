@@ -1,0 +1,16 @@
+{
+  "itemGroup.celestial_items": "Celestial",
+
+  "item.celestial.starblazers": "Звёздный Путник",
+  "tooltip.relics.starblazers.description": "Ботинки, работающие на лунном свете, позволяющие их пользователям путешествовать вдоль созвездий.",
+
+  "tooltip.relics.starblazers.ability.constellation_mode": "Режим созвездий",
+  "tooltip.relics.starblazers.ability.constellation_mode.description": "Позволяет вам путешествовать вдоль созвездий.",
+  "tooltip.relics.starblazers.ability.constellation_mode.stat.movement_speed.title": "Скорость передвижения",
+  "tooltip.relics.starblazers.ability.constellation_mode.stat.movement_speed.value": "%1$s стелл в секунду",
+  "tooltip.relics.starblazers.ability.constellation_mode.stat.moonlight_capacity.title": "Лунная вместимость",
+  "tooltip.relics.starblazers.ability.constellation_mode.stat.moonlight_capacity.value": "%1$s лунных люменов",
+
+  "tooltip.relics.starblazers.ability.sun_and_moon": "Солнце и Луна",
+  "tooltip.relics.starblazers.ability.sun_and_moon.description": "Вы покорили небеса и теперь способны генерировать лунный свет даже днём."
+}

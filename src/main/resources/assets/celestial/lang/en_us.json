@@ -1,0 +1,16 @@
+{
+  "itemGroup.celestial_items": "Celestial",
+
+  "item.celestial.starblazers": "Starblazers",
+  "tooltip.relics.starblazers.description": "Boots powered by moonlight, guiding travelers through celestial constellations.",
+
+  "tooltip.relics.starblazers.ability.constellation_mode": "Constellation Mode",
+  "tooltip.relics.starblazers.ability.constellation_mode.description": "Allows you to travel along the constellations.",
+  "tooltip.relics.starblazers.ability.constellation_mode.stat.movement_speed.title": "Movement speed",
+  "tooltip.relics.starblazers.ability.constellation_mode.stat.movement_speed.value": "%1$s stellas per second",
+  "tooltip.relics.starblazers.ability.constellation_mode.stat.moonlight_capacity.title": "Moonlight capacity",
+  "tooltip.relics.starblazers.ability.constellation_mode.stat.moonlight_capacity.value": "%1$s lunar lumens",
+
+  "tooltip.relics.starblazers.ability.sun_and_moon": "Sun and Moon",
+  "tooltip.relics.starblazers.ability.sun_and_moon.description": "You have conquered the skies and now are able to regenerate moonlight during daytime."
+}
