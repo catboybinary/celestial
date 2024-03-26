@@ -74,7 +74,7 @@ public class StarblazersRelic extends RelicItem {
 
         float maxCapacity = (float) getAbilityValue(stack, "constellation_mode", "moonlight_capacity");
         float moonlight = NBTUtils.getFloat(stack, TAG_MOONLIGHT, maxCapacity);
-        player.sendSystemMessage(Component.literal("Moonlight: " + moonlight));
+        //player.sendSystemMessage(Component.literal("Moonlight: " + moonlight));
 
         if (isAbilityTicking(stack, "constellation_mode")) moonlight -= 0.1f;
 
