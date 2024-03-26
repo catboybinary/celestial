@@ -19,7 +19,6 @@ public class Starfield {
         PerlinNoise perlin = PerlinNoise.create(random, 2,4,3);
         Set<BlockPos> sphereBlocks = new HashSet<>();
 
-
         double cx = pos.x();
         double cy = pos.y();
         double cz = pos.z();
