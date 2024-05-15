@@ -2,6 +2,7 @@ package meow.binary.celestial.content.item.relics;
 
 import it.hurts.sskirillss.relics.items.relics.base.RelicItem;
 import it.hurts.sskirillss.relics.items.relics.base.data.RelicData;
+import it.hurts.sskirillss.relics.items.relics.base.data.cast.CastData;
 import it.hurts.sskirillss.relics.items.relics.base.data.cast.misc.CastType;
 import it.hurts.sskirillss.relics.items.relics.base.data.leveling.AbilitiesData;
 import it.hurts.sskirillss.relics.items.relics.base.data.leveling.AbilityData;
@@ -12,16 +13,11 @@ import it.hurts.sskirillss.relics.items.relics.base.data.loot.LootData;
 import it.hurts.sskirillss.relics.items.relics.base.data.loot.misc.LootCollections;
 import it.hurts.sskirillss.relics.utils.MathUtils;
 import it.hurts.sskirillss.relics.utils.NBTUtils;
-import net.minecraft.client.Minecraft;
-import net.minecraft.network.chat.Component;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
 import top.theillusivec4.curios.api.SlotContext;
-
-import java.text.CompactNumberFormat;
 
 public class StarblazersRelic extends RelicItem {
     public static final String TAG_MOONLIGHT = "moonlight";
@@ -35,7 +31,7 @@ public class StarblazersRelic extends RelicItem {
         return RelicData.builder()
                 .abilities(AbilitiesData.builder()
                         .ability(AbilityData.builder("constellation_mode")
-                                .active(CastType.TOGGLEABLE)
+                                .active(CastData.builder().type(CastType.TOGGLEABLE).build())
                                 .stat(StatData.builder("movement_speed")
                                         .initialValue(0.75f, 1.25f)
                                         .upgradeModifier(UpgradeOperation.ADD, 0.15f)

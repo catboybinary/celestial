@@ -55,10 +55,12 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', mod_id
 
-            jvmArg "-XX:+AllowEnhancedClassRedefinition"
-            jvmArg "-XX:+AllowRedefinitionToAddDeleteMethods"
+//            jvmArg "-XX:+AllowEnhancedClassRedefinition"
+//            jvmArg "-XX:+AllowRedefinitionToAddDeleteMethods"
 
             arg "-mixin.config=" + mod_id + ".mixins.json"
+            arg "--username\n" + "catboybinary"
+            arg "--uuid\n" + "226ad97b-3f1e-4676-b764-aced2dee41e3"
             mods {
                 "${mod_id}" {
                     source sourceSets.main
@@ -123,6 +125,7 @@ dependencies {
     }
 
     implementation 'org.jetbrains:annotations:20.1.0'
+
 
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.7.0+1.20.1")
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.7.0+1.20.1:api")
